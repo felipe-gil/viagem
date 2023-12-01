@@ -1,6 +1,7 @@
 import { LightningElement } from 'lwc';
 import getAeroportos from '@salesforce/apex/VooController.listarAeroportos';
 
+
 export default class ViagemAerea extends LightningElement  {
     value = "";
     selecao = [];
